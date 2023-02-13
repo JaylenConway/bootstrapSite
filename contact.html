@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>GPF</h1>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="about.html">About Us</a>
+        </nav>
+        <form action="#">
+            <input type="text" placeholder="Search">
+            <button type="submit">Go</button>
+        </form>
+    </header>
+    <div class="content">
+        <h2>Contact Us</h2>
+        <form>
+            
+            <input type="text" id="name" name="name" placeholder="Name">
+
+            <select id="issue" name="issue">
+                <option value="default">Issue Type</option>
+                <option value="tecnical">Technical</option>
+                <option value="billing">Billing</option>
+             <option value="other">Other</option>
+          </select>
+
+          <textarea id="description" name="description" placeholder="Issue Description"></textarea>
+
+          <input type="checkbox" id="emailConfirmation" name="emailConfirmation">
+          <label for="emailConfirmation">Get status updates via email</label>
+
+          <input type="email" id="email" name="email" placeholder="Email">
+
+          <input type="submit" value="Submit">
+        </form>
+    </div>
+    <footer>
+        <p>2023&copy Graduate Program Finder</p>
+    </footer>
+</body>
+</html>
